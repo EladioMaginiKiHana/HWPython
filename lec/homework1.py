@@ -4,3 +4,12 @@
 # Пример:
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
+
+num = int(input())
+
+a = num % 10
+num = num // 10
+b = num % 10
+c = num //10
+
+print(a + b + c)
